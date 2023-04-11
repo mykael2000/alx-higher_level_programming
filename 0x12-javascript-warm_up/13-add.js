@@ -1,4 +1,4 @@
 #!/usr/bin/node 
-function add (num, num2){
+function exports.add (num, num2){
 	return num + num2;
 }
