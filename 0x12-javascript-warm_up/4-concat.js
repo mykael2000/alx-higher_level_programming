@@ -1,5 +1,6 @@
 #!/usr/bin/node
 
-function concat(arg, argg){
-	console.log(arg + " is " + argg );	
-}
+let arg = process.argv[2];
+let argg = process.argv[3];
+console.log(arg + " is " + argg );	
+
